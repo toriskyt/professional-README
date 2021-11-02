@@ -2,8 +2,10 @@
 const inquirer = require('inquirer');
 // DONE: brought in file system from nodejs library
 const fs = require("fs");
+
 // DONE: create a link to the markdown file
 const generateMarkdown = require("./generateMarkdown");
+
 // : DONE:  Create an array of questions for user input
 const questions =
     [
@@ -21,14 +23,8 @@ const questions =
 
         {
             type: "input",
-            message: "Table of Contents",
-            name: "contents",
-        },
-
-        {
-            type: "input",
-            message: "Installation",
-            name: "install",
+            message: "Installation Dependencies",
+            name: "installation",
         },
 
         {
@@ -38,26 +34,27 @@ const questions =
         },
 
         {
-            type: "input",
-            message: "License",
+            type: "list",
+            message: "Project License",
             name: "license",
+            choices: ["MIT", "Apache 2.0", "GPL"]
         },
 
         {
             type: "input",
             message: "Contributing",
-            name: "contribute",
+            name: "contribution",
         },
 
         {
             type: "input",
-            message: "Tests",
+            message: "Test command",
             name: "test",
         },
 
         {
             type: "input",
-            message: "Questions",
+            message: "Questions?",
             name: "question",
         }
     ];
@@ -67,7 +64,7 @@ console.log(questions);
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 
-    fs.writeFile(filename, data, function(err){
+    fs.writeFile(fileName, data, function(err) {
         if (err) {
             return console.log(err);
         }
@@ -79,7 +76,8 @@ function writeToFile(fileName, data) {
 function init() { 
     inquirer.prompt(questions)
     .then(function(data) {
-        writeToFile("professional-README", generateMarkdown(data));
+        console.log(data)
+        writeToFile("README.md", generateMarkdown(data));
     })
 }
 
