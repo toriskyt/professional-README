@@ -2,18 +2,15 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT") {
-    return `
-    ![MIT](https://img.shields.io/badge/license-MIT-blue)  `
+    return `![MIT](https://img.shields.io/badge/license-MIT-blue)  `
   }
 
   if (license === "Apache 2.0") {
-    return `
-    ![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-brightgreen)  `
+    return `![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-brightgreen)  `
   }
 
   if (license === "GPL") {
-    return `
-    ![GPL](https://img.shields.io/badge/license-GPL-orange) `
+    return `![GPL](https://img.shields.io/badge/license-GPL-orange) `
   }
 }
 
@@ -21,18 +18,15 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "MIT") {
-    return `
-    ![MIT](https://opensource.org/licenses/MIT) `
+    return `![MIT](https://opensource.org/licenses/MIT) `
   }
 
   if (license === "Apache 2.0") {
-    return `
-    ![Apache 2.0](https://opensource.org/licenses/Apache-2.0) `
+    return `![Apache 2.0](https://opensource.org/licenses/Apache-2.0) `
   }
 
   if (license === "GPL") {
-    return `
-    ![GPL](https://opensource.org/licenses/gpl-license) `
+    return `![GPL](https://opensource.org/licenses/gpl-license) `
   }
 }
 
