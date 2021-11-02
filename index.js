@@ -2,9 +2,10 @@
 const inquirer = require('inquirer');
 // DONE: brought in file system from nodejs library
 const fs = require("fs");
-
 // DONE: create a link to the markdown file
 const generateMarkdown = require("./generateMarkdown");
+
+console.log("Welcome to my README generator");
 
 // : DONE:  Create an array of questions for user input
 const questions =
@@ -56,10 +57,24 @@ const questions =
             type: "input",
             message: "Questions?",
             name: "question",
+        },
+
+        {
+            type: "input",
+            message: "GitHub Username",
+            name: "github",
+        },
+
+        {
+            type: "input",
+            message: "Email",
+            name: "email",
         }
+
+
     ];
 
-console.log(questions);
+// console.log(questions);
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {

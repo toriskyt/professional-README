@@ -88,7 +88,7 @@ function renderLicenseSection(license) {
 // DONE: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  
+
 ${renderLicenseBadge (data.license)}
 
 # Description
@@ -132,8 +132,11 @@ ${data.test}
 # Questions
 Let me know if you have any questions.
 
-Find my GitHub repository at ${data.userName} or use my email address at ${data.email}
-`;
+# Contact
+
+* [GitHub][*${data.github}](https://github.com/${data.github})
+* [Email][*${data.email}](mailto:user@example.com);
+`
 }
 
 module.exports = generateMarkdown;
