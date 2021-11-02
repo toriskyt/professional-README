@@ -1,51 +1,45 @@
 // DONE: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if(license === "MIT") {
+  if (license === "MIT") {
     return `
-    ![MIT](https://img.shields.io/badge/license-MIT-blue)
-    `
+    ![MIT](https://img.shields.io/badge/license-MIT-blue)  `
   }
 
-  if(license === "Apache 2.0") {
+  if (license === "Apache 2.0") {
     return `
-    ![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-brightgreen)
-    `
+    ![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-brightgreen)  `
   }
 
-  if(license === "GPL") {
+  if (license === "GPL") {
     return `
-    ![GPL](https://img.shields.io/badge/license-GPL-orange)
-    `
+    ![GPL](https://img.shields.io/badge/license-GPL-orange) `
   }
 }
 
 // DONE: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if(license === "MIT") {
+  if (license === "MIT") {
     return `
-    ![MIT](https://opensource.org/licenses/MIT)
-    `
+    ![MIT](https://opensource.org/licenses/MIT) `
   }
 
-  if(license === "Apache 2.0") {
+  if (license === "Apache 2.0") {
     return `
-    ![Apache 2.0](https://opensource.org/licenses/Apache-2.0)
-    `
+    ![Apache 2.0](https://opensource.org/licenses/Apache-2.0) `
   }
 
-  if(license === "GPL") {
+  if (license === "GPL") {
     return `
-    ![GPL](https://opensource.org/licenses/gpl-license)
-    `
+    ![GPL](https://opensource.org/licenses/gpl-license) `
   }
-  }
+}
 
 // DONE: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if(license === "MIT") {
+  if (license === "MIT") {
     return `
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -54,7 +48,7 @@ function renderLicenseSection(license) {
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. `
   }
 
-  if(license === "Apache 2.0") {
+  if (license === "Apache 2.0") {
     return `Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
@@ -67,7 +61,7 @@ function renderLicenseSection(license) {
     `
   }
 
-  if(license === "GPL") {
+  if (license === "GPL") {
     return `
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -89,7 +83,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-${renderLicenseBadge (data.license)}
+${renderLicenseBadge(data.license)}
 
 # Description
 
@@ -130,7 +124,7 @@ ${data.contribution}
 ${data.test}
 
 # Questions
-Let me know if you have any questions.
+Let me know if you have any questions using my contact information listed below.
 
 # Contact
 

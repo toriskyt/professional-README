@@ -1,12 +1,11 @@
-# Prof README generator
+# sss
 
 
-    ![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-brightgreen)
-    
+    ![MIT](https://img.shields.io/badge/license-MIT-blue)  
 
 # Description
 
-create generator
+sss
 
 # Table of Contents
 
@@ -24,37 +23,33 @@ create generator
 
 # Installation
 
-nmp 
+sss
 
 # Usage
 
-to put together document
+sss
 
 # License
 
-Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
- 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
 
 # Contributing
 
-corey
+sss
 
 # Tests
 
-yyy
+sss
 
 # Questions
-Let me know if you have any questions.
+Let me know if you have any questions using my contact information listed below.
 
 # Contact
 
-* [GitHub][*toriskyt](https://github.com/toriskyt)
-* [Email][*ttorisky@gmail.com](mailto:user@example.com);
+* [GitHub][*sss](https://github.com/sss)
+* [Email][*sss](mailto:user@example.com);
