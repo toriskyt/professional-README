@@ -93,9 +93,9 @@ ${data.description}
 
 * [Contributing](#contributing)
 
-* [Tests](*tests)
+* [Tests](#tests)
 
-* [Questions](*questions)
+* [Questions](#questions)
 
 # Installation
 

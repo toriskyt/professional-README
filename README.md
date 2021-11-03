@@ -1,10 +1,10 @@
-# Professional README 
+# Professional README
 
 ![MIT](https://img.shields.io/badge/license-MIT-blue)  
 
 # Description
 
-This project automatically creates a template for a README file.
+Create a README for projects
 
 # Table of Contents
 
@@ -16,17 +16,17 @@ This project automatically creates a template for a README file.
 
 * [Contributing](#contributing)
 
-* [Tests](*tests)
+* [Tests](#tests)
 
-* [Questions](*questions)
+* [Questions](#questions)
 
 # Installation
 
-Inquirer
+inquirer
 
 # Usage
 
-I can use this REAME file for upcoming projects
+To use for upcoming projects
 
 # License
 
@@ -43,7 +43,7 @@ n/a
 
 # Tests
 
-nmp init
+npm init
 
 # Questions
 Let me know if you have any questions using my contact information listed below.
