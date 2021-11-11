@@ -52,3 +52,5 @@ Let me know if you have any questions using my contact information listed below.
 
 * [GitHub][*toriskyt](https://github.com/toriskyt)
 * [Email][*ttorisky@gmail.com](mailto:user@example.com);
+
+YouTube video link of walkthrough: https://youtu.be/jOw7lsBvAsI
